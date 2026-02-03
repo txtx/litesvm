@@ -47,7 +47,7 @@ dependencies = [
 [[package]]
 name = "agave-feature-set"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "ahash",
  "solana-epoch-schedule",
@@ -60,7 +60,7 @@ dependencies = [
 [[package]]
 name = "agave-precompiles"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "bincode",
@@ -81,7 +81,7 @@ dependencies = [
 [[package]]
 name = "agave-reserved-account-keys"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "solana-pubkey 3.0.0",
@@ -91,7 +91,7 @@ dependencies = [
 [[package]]
 name = "agave-syscalls"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "bincode",
  "libsecp256k1 0.6.0",
@@ -103,7 +103,7 @@ dependencies = [
  "solana-bn254",
  "solana-clock",
  "solana-cpi",
- "solana-curve25519 3.1.6 (git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge)",
+ "solana-curve25519 3.1.6 (git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size)",
  "solana-hash 3.1.0",
  "solana-instruction",
  "solana-keccak-hasher",
@@ -3628,7 +3628,7 @@ dependencies = [
 [[package]]
 name = "solana-bpf-loader-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-syscalls",
  "bincode",
@@ -3656,7 +3656,7 @@ dependencies = [
 [[package]]
 name = "solana-builtins"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "solana-bpf-loader-program",
@@ -3675,7 +3675,7 @@ dependencies = [
 [[package]]
 name = "solana-builtins-default-costs"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "ahash",
@@ -3714,7 +3714,7 @@ dependencies = [
 [[package]]
 name = "solana-compute-budget"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "solana-fee-structure",
  "solana-program-runtime",
@@ -3723,7 +3723,7 @@ dependencies = [
 [[package]]
 name = "solana-compute-budget-instruction"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "log",
@@ -3754,7 +3754,7 @@ dependencies = [
 [[package]]
 name = "solana-compute-budget-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "solana-program-runtime",
 ]
@@ -3807,7 +3807,7 @@ dependencies = [
 [[package]]
 name = "solana-curve25519"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "bytemuck",
  "bytemuck_derive",
@@ -3888,7 +3888,7 @@ dependencies = [
 [[package]]
 name = "solana-fee"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "solana-fee-structure",
@@ -4054,7 +4054,7 @@ dependencies = [
 [[package]]
 name = "solana-loader-v4-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "log",
  "solana-account",
@@ -4098,7 +4098,7 @@ dependencies = [
 [[package]]
 name = "solana-metrics"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "crossbeam-channel",
  "gethostname",
@@ -4168,7 +4168,7 @@ dependencies = [
 [[package]]
 name = "solana-perf"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "ahash",
  "bincode",
@@ -4200,7 +4200,7 @@ dependencies = [
 [[package]]
 name = "solana-poseidon"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "ark-bn254 0.4.0",
  "ark-bn254 0.5.0",
@@ -4267,7 +4267,7 @@ dependencies = [
 [[package]]
 name = "solana-program-runtime"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "base64 0.22.1",
  "bincode",
@@ -4329,7 +4329,7 @@ dependencies = [
 [[package]]
 name = "solana-rayon-threadlimit"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "log",
  "num_cpus",
@@ -4575,7 +4575,7 @@ dependencies = [
 [[package]]
 name = "solana-svm-callback"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "solana-account",
  "solana-clock",
@@ -4586,12 +4586,12 @@ dependencies = [
 [[package]]
 name = "solana-svm-feature-set"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 
 [[package]]
 name = "solana-svm-log-collector"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "log",
 ]
@@ -4599,12 +4599,12 @@ dependencies = [
 [[package]]
 name = "solana-svm-measure"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 
 [[package]]
 name = "solana-svm-timings"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "eager",
  "enum-iterator",
@@ -4614,7 +4614,7 @@ dependencies = [
 [[package]]
 name = "solana-svm-transaction"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "solana-hash 3.1.0",
  "solana-message",
@@ -4627,7 +4627,7 @@ dependencies = [
 [[package]]
 name = "solana-svm-type-overrides"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "rand 0.8.5",
 ]
@@ -4665,7 +4665,7 @@ dependencies = [
 [[package]]
 name = "solana-system-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "bincode",
  "log",
@@ -4761,7 +4761,7 @@ dependencies = [
 [[package]]
 name = "solana-transaction-context"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "bincode",
  "serde",
@@ -4841,7 +4841,7 @@ dependencies = [
 [[package]]
 name = "solana-vote-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "bincode",
@@ -4872,7 +4872,7 @@ dependencies = [
 [[package]]
 name = "solana-zk-elgamal-proof-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "bytemuck",
@@ -4925,7 +4925,7 @@ dependencies = [
 [[package]]
 name = "solana-zk-token-proof-program"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "agave-feature-set",
  "bytemuck",
@@ -4941,7 +4941,7 @@ dependencies = [
 [[package]]
 name = "solana-zk-token-sdk"
 version = "3.1.6"
-source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge#c414a7be2c390f50cd29425fdcd132a4e64a8eea"
+source = "git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size#c4b4c9a4655323abed142815f2bc03eaa305767e"
 dependencies = [
  "aes-gcm-siv",
  "base64 0.22.1",
@@ -4957,7 +4957,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "solana-curve25519 3.1.6 (git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size-merge)",
+ "solana-curve25519 3.1.6 (git+https://github.com/txtx/solana?branch=v3.1.6-increase-tx-size)",
  "solana-derivation-path",
  "solana-instruction",
  "solana-pubkey 3.0.0",
